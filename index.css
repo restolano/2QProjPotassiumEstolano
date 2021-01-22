@@ -1,0 +1,138 @@
+html {
+  background-color: #fffffa;
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+h2	{
+  text-align: center ;
+  color: #38a148;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+p	{
+  text-align:left;
+}
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 120px;
+  position: relative;
+}
+.header {
+  overflow: hidden;
+  background-color: #d0f0c0;
+  padding: 10px 10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: #fdf8dc;
+  color: black;
+}
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+.header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.footer {
+    overflow: hidden;
+	background-color: #d0f0c0;
+	padding: 10px 10px;
+	position: absolute;
+	bottom: 0;
+	width: 97vw;
+	height: 90px;
+}
+.footer a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 4px;
+}
+.copyright{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 15px;
+  border-radius: 4px;
+  vertical-align: baseline;
+}
+.footer-right{
+	padding: 10px 10px;
+	float: right;
+}
+#middle-text{
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	z-index: 2;
+}
+#home-background{
+	position: absolute;
+	top: 70px;
+	left: 0px;
+	width: 98.5vw;
+	height: 100vh;
+	z-index: 1;
+}
+#summary, #activities{
+	position: relative;
+	text-align: center;
+	font-size: 25px;
+}
+#body{
+	padding-top: 100vh;
+}
+table{
+	padding: 10px 50px 10px 50px;
+}
+.point{
+	font-size: 25px;
+	color: #38a148;
+}
+body{
+	text-align: center;
+}
+h1{
+	color:#38a148;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative; 
+}
+#column1{
+	float: left;
+}
+#stdgrp{
+	text-align: center;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+a:hover{
+	 background-color: #fdf8dc;
+}
